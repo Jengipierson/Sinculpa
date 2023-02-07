@@ -39,55 +39,38 @@ body {
   }
 }
 
-.tarjetitas, .tarjetas {
+.servicios_alinear {
   display: flex;
-  width: 1100px;
-  gap: 3rem;
+  justify-content: center;
 }
 
-.tarjetita, .tarjeta {
-  flex-basis: 100%;
+.Alinear_flex {
   display: flex;
-  flex-direction: column;
-  background-color: lightgreen;
+  justify-content: center;
 }
 
-.info {
+.Alinear_juego {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 2rem;
+  justify-content: center;
 }
 
-.tarjetita img, .tarjeta img {
-  max-width: 100%;
+.Alinear_astro {
+  display: flex;
+  justify-content: center;
 }
 
-tarjetita {
-  transition: all .3s;
+.Alinear_produc {
+  display: flex;
+  justify-content: center;
 }
 
-.tarjetita:hover {
-  transform: scale(1.1) translateY(-40px);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+.Alinear_muchacho {
+  display: flex;
+  justify-content: center;
 }
-
-.tarjetita {
-  -webkit-animation:tilt-in-fwd-tr .6s cubic-bezier(.25,.46,.45,.94) both;
-  animation:tilt-in-fwd-tr .6s cubic-bezier(.25,.46,.45,.94) both;
+.menu-bebidas1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.tarjetita1 {
-  animation-delay: 1s;
-}
-
-.tarjetita2 {
-  animation-delay: 2s;
-}
-
-.tarjetita3 {
-  animation-delay: 3s;
-}
-
-@-webkit-keyframes tilt-in-fwd-tr{0%{-webkit-transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}@keyframes tilt-in-fwd-tr{0%{-webkit-transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
 
